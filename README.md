@@ -13,6 +13,8 @@
 
 ## 简体中文
 
+### 项目概述
+
 > [!IMPORTANT]
 > **关于数据源变更与功能受限的说明 (2025.12)**
 > 
@@ -24,16 +26,14 @@
 > 
 > *我们也正在关注是否有新的替代数据源出现。*
 
-### 项目概述
-
 FC2流出检查器是一款专业的内容状态分析工具，基于fc2ppvdb.com构建。用户只需提供某个作者的一个具体fc2视频id，即可快速获取其在fc2.com发布的作品的完整流出状态报告，同时自动整合高质量预览图和磁力链接资源。
+
+查看[完整版本更新日志](CHANGELOG.md)了解更多详情。
 
 **核心特点：**
 - 强大的统计分析功能，提供直观详细的数据可视化结果
 - 轻量级命令行界面设计，操作简单直观
 - 丰富的自定义配置选项，满足不同场景下的分析需求
-
-查看[完整版本更新日志](CHANGELOG.md)了解更多详情。
 
 ### 主要功能
 
@@ -308,6 +308,16 @@ python run.py --clear-cache
 ## English
 
 ### Project Overview
+
+> [!IMPORTANT]
+> **Notice: Data Source Changes & Functional Limitations (Dec 2025)**
+> 
+> Due to the revamp of the upstream data source `fc2ppvdb` in September 2025, this tool is currently functioning with **limited capabilities**:
+> 
+> 1.  **Data Loss**: Since the source site no longer publicly displays images and certain metadata, **key information such as cover previews may not be automatically retrievable at this time**.
+> 2.  **Maintenance Status**: Due to pressure from FC2 officials, the source site has reduced displayed information and increased authentication requirements. Consequently, the previous "one-click text & image integration" experience is unlikely to be restored in the short term. It is recommended that users with **native residential IPs** attempt to use the tool, or wait for future adaptation updates.
+> 
+> *We are also monitoring for the emergence of any new alternative data sources.*
 
 FC2 Leak Detector is a professional content status analysis tool built on fc2ppvdb.com. Users only need to provide an author's specific FC2 video ID to quickly obtain a complete status report of their works published on fc2.com, while automatically integrating high-quality preview images and magnet link resources.
 
@@ -591,6 +601,16 @@ This project is released under the GNU General Public License v3 (GNU GPL v3), w
 ## 日本語
 
 ### プロジェクト概要
+
+> [!IMPORTANT]
+> **データソースの変更と機能制限に関するお知らせ (2025.12)**
+> 
+> 上流データソースである `fc2ppvdb` が2025年9月に仕様変更された影響により、本ツールは現在**機能制限**された状態にあります：
+> 
+> 1.  **データの欠落**: ソースサイトが画像や一部のメタデータを公開しなくなったため、**カバー画像のプレビューなどの重要な情報は、現在自動取得できない可能性があります**。
+> 2.  **メンテナンス状況**: FC2公式からの圧力により、ソースサイトが表示情報を削減し、認証レベルを引き上げたため、以前のような「ワンクリックで画像とテキストを統合」する体験を短期的に復旧させることは困難です。**ネイティブIP（住宅用IPなど）**をお持ちの方のみ試行するか、今後の対応更新をお待ちいただくことを推奨します。
+> 
+> *現在、新しい代替データソースの出現についても注視しています。*
 
 FC2流出チェッカーは、fc2ppvdb.comに基づいて構築された専門的なコンテンツステータス分析ツールです。ユーザーは、特定の作者のFC2ビデオIDを提供するだけで、fc2.comで公開されている作品の完全な流出ステータスレポートを迅速に取得でき、同時に高品質のプレビュー画像とマグネットリンク情報を自動的に統合します。
 
